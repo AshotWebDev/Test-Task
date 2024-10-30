@@ -1,0 +1,34 @@
+.filter-panel {
+    width: 250px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .filter-panel div {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-panel label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .filter-panel select, .filter-panel button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
